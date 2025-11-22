@@ -1,0 +1,117 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Logs
+logs
+*.log
+logs/*
+!logs/.gitkeep
+
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+. next/
+.next/
+.vercel/
+.terraform/
+
+# Production
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.bak
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Next.js build output & cache
+.next/
+.cache/
+.cache-loader/
+
+# Parcel cache
+.cache/
+.parcel-cache/
+
+# Coverage directory used by tools like istanbul/nyc
+coverage/
+.nyc_output/
+
+# Test output
+jest.config.js
+test-results/
+*.lcov
+
+# VSCode
+.vscode/
+.history/
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+*.tar
+docker-compose.override.yml
+.dockerignore
+
+# Logs, temp files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Typescript
+*.tsbuildinfo
+
+# Serverless
+.serverless/
+
+# Sentry
+.sentrycli
+
+# JetBrains
+out/
+
+# Lockfiles for pnpm
+.pnpm-store/
+
+# Ignore local environment overrides
+.env.local
+.env.*.local
+
+# Keep the file itself tracked
+!.gitignore
